@@ -26,7 +26,7 @@ const inputNum1 = 121 // true
 const inputNum2 = -121 // false
 const inputNum3 = 10 // true
 
-// Number palindromic O(1) P.S. Without convert number to string
+// Number palindromic O(log n) P.S. Without convert number to string
 const isPalindromicNumber = (num) => {
     if (num < 0 || num % 10 === 0) return false
     if (num < 10) return true
